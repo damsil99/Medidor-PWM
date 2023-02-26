@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Medidor de Frecuencia de una señal PWM: Referencia del Archivo Rx.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="facultad-ingenieria.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Medidor de Frecuencia de una señal PWM<span id="projectnumber">&#160;1.0.</span>
+   </div>
+   <div id="projectbrief">Luis David Muñoz Jurado - Daniel Mosquera Silva</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funciones</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del Archivo Rx.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;FreqCount.h&gt;</code><br />
+</div>
+<p><a href="rx_8h_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
+<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función de acciones que solo se ejecutan una vez.  <br /></td></tr>
+<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
+<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función de ejecución permanente.  <br /></td></tr>
+<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3200af41c6fda9849f393421b16b819b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a3200af41c6fda9849f393421b16b819b">leds_display</a> (long freq)</td></tr>
+<tr class="memdesc:a3200af41c6fda9849f393421b16b819b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función encargada de mutiplexar los displays.  <br /></td></tr>
+<tr class="separator:a3200af41c6fda9849f393421b16b819b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a937a90dde3f1d5469c9ac3e8ad4197b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a937a90dde3f1d5469c9ac3e8ad4197b0">pines_on_off</a> (int bits, int ini, int fin)</td></tr>
+<tr class="memdesc:a937a90dde3f1d5469c9ac3e8ad4197b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función enciende los leds del display 7 segmentos.  <br /></td></tr>
+<tr class="separator:a937a90dde3f1d5469c9ac3e8ad4197b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ca3a7331d5b5264ebd31d932a28fe92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a6ca3a7331d5b5264ebd31d932a28fe92">taza_refres</a> (long freq)</td></tr>
+<tr class="memdesc:a6ca3a7331d5b5264ebd31d932a28fe92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Taza de refresco de los displays.  <br /></td></tr>
+<tr class="separator:a6ca3a7331d5b5264ebd31d932a28fe92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aafe3f4437fc8c68bc6e5fd4ade02c623"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#aafe3f4437fc8c68bc6e5fd4ade02c623">a</a> = 6</td></tr>
+<tr class="memdesc:aafe3f4437fc8c68bc6e5fd4ade02c623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida.  <br /></td></tr>
+<tr class="separator:aafe3f4437fc8c68bc6e5fd4ade02c623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49c039bfb177536251e7fadaba4d4d11"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a49c039bfb177536251e7fadaba4d4d11">b</a> = 7</td></tr>
+<tr class="memdesc:a49c039bfb177536251e7fadaba4d4d11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida.  <br /></td></tr>
+<tr class="separator:a49c039bfb177536251e7fadaba4d4d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05aa076b56283504ea5eb130f7164189"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a05aa076b56283504ea5eb130f7164189">c</a> = 8</td></tr>
+<tr class="memdesc:a05aa076b56283504ea5eb130f7164189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida.  <br /></td></tr>
+<tr class="separator:a05aa076b56283504ea5eb130f7164189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a785c2f0561357439a33ac41be7fdef29"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a785c2f0561357439a33ac41be7fdef29">d</a> = 9</td></tr>
+<tr class="memdesc:a785c2f0561357439a33ac41be7fdef29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida.  <br /></td></tr>
+<tr class="separator:a785c2f0561357439a33ac41be7fdef29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74085ce15c6f4aeb0ca5b25f3efe30ab"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a74085ce15c6f4aeb0ca5b25f3efe30ab">e</a> = 10</td></tr>
+<tr class="memdesc:a74085ce15c6f4aeb0ca5b25f3efe30ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida.  <br /></td></tr>
+<tr class="separator:a74085ce15c6f4aeb0ca5b25f3efe30ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96796a08a18d4c5115b929c9451678ea"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a96796a08a18d4c5115b929c9451678ea">f</a> = 11</td></tr>
+<tr class="memdesc:a96796a08a18d4c5115b929c9451678ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida.  <br /></td></tr>
+<tr class="separator:a96796a08a18d4c5115b929c9451678ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1378458a998351174a5e6201791909"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a7f1378458a998351174a5e6201791909">g</a> = 12</td></tr>
+<tr class="memdesc:a7f1378458a998351174a5e6201791909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida.  <br /></td></tr>
+<tr class="separator:a7f1378458a998351174a5e6201791909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ce01df5acaf06770bcc42d0af687e88"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a7ce01df5acaf06770bcc42d0af687e88">unidad</a> = A4</td></tr>
+<tr class="memdesc:a7ce01df5acaf06770bcc42d0af687e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida Transistores.  <br /></td></tr>
+<tr class="separator:a7ce01df5acaf06770bcc42d0af687e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1cc541ee4174322b32ca26985e1181"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a2c1cc541ee4174322b32ca26985e1181">decena</a> = A3</td></tr>
+<tr class="memdesc:a2c1cc541ee4174322b32ca26985e1181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida Transistores.  <br /></td></tr>
+<tr class="separator:a2c1cc541ee4174322b32ca26985e1181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c993d4b0436ed1133c536880711c83"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a68c993d4b0436ed1133c536880711c83">centena</a> = A2</td></tr>
+<tr class="memdesc:a68c993d4b0436ed1133c536880711c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida Transistores.  <br /></td></tr>
+<tr class="separator:a68c993d4b0436ed1133c536880711c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95b985b89ce78056e926de27679bddd0"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a95b985b89ce78056e926de27679bddd0">und_mil</a> = A1</td></tr>
+<tr class="memdesc:a95b985b89ce78056e926de27679bddd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida Transistores.  <br /></td></tr>
+<tr class="separator:a95b985b89ce78056e926de27679bddd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0264aafd59d699d149da8b07bf0696ce"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a0264aafd59d699d149da8b07bf0696ce">dec_mil</a> = A0</td></tr>
+<tr class="memdesc:a0264aafd59d699d149da8b07bf0696ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin de salida Transistores.  <br /></td></tr>
+<tr class="separator:a0264aafd59d699d149da8b07bf0696ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994ec02b9436ed1a8a25c4b0351249c7"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a994ec02b9436ed1a8a25c4b0351249c7">number</a> [10] = {0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f}</td></tr>
+<tr class="memdesc:a994ec02b9436ed1a8a25c4b0351249c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arreglo de números de cátodo común en displays 7 segmentos.  <br /></td></tr>
+<tr class="separator:a994ec02b9436ed1a8a25c4b0351249c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e3fedede6aa372e5196e55e5e8d5c1"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a66e3fedede6aa372e5196e55e5e8d5c1">count</a></td></tr>
+<tr class="memdesc:a66e3fedede6aa372e5196e55e5e8d5c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable global.  <br /></td></tr>
+<tr class="separator:a66e3fedede6aa372e5196e55e5e8d5c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af96c2200273f04883faaa88afd7a9f94"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#af96c2200273f04883faaa88afd7a9f94">count1</a></td></tr>
+<tr class="memdesc:af96c2200273f04883faaa88afd7a9f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable global.  <br /></td></tr>
+<tr class="separator:af96c2200273f04883faaa88afd7a9f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19adced22eb108f06f005704588b0c4b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rx_8h.html#a19adced22eb108f06f005704588b0c4b">sms</a> = &quot;&gt;&gt; ------ PWM FREQUENCY METER ------&quot;</td></tr>
+<tr class="memdesc:a19adced22eb108f06f005704588b0c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesanje inicial.  <br /></td></tr>
+<tr class="separator:a19adced22eb108f06f005704588b0c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a id="a3200af41c6fda9849f393421b16b819b" name="a3200af41c6fda9849f393421b16b819b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3200af41c6fda9849f393421b16b819b">&#9670;&#160;</a></span>leds_display()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void leds_display </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>freq</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Función encargada de mutiplexar los displays. </p>
+<p>Crea un arreglo local digitos_num[5] donde almacenará los valores de las U,D,C,UM,DM, esto mediante operaciones consecutivas. </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>Valor de la frecuencia. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>NONE No retorna valores, cambia los valores del sistema dentro de la función. </dd></dl>
+<p>MULTIPLEXACIÓN. Se limíta mediente condicionales que son los que permiten apagar los displays cuando la frecuencia no no supera la U,D,C,UM,DM if(freq &lt; X &amp;&amp; freq &gt;= X){}</p>
+<p>CONCATENACIÓN. Sele envía a la función pines_on_off(number[digitos_num[X-i]], a, g) los valores almacenados dentro de los arreglos. Eso mediante un ciclo FOR que recorre los Pines de los transistores, siendo for (int i = X; i &gt;= X; i&ndash;){}, siendo los valores de X, los valores correspondientes a U,D,C,UM,DM, dada por los pines de los transistores.</p>
+
+</div>
+</div>
+<a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe461d27b9c48d5921c00d521181f12f">&#9670;&#160;</a></span>loop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Función de ejecución permanente. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">NONE</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>NONE </dd></dl>
+<p>FreqCount.read() -&gt; Instrucción. Toma los valores que le llegan por el puerto y los asigna a una variable.</p>
+<p>Serial.print() -&gt; Instrucción. Muestra los valores en la consola de Arduino.</p>
+
+</div>
+</div>
+<a id="a937a90dde3f1d5469c9ac3e8ad4197b0" name="a937a90dde3f1d5469c9ac3e8ad4197b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937a90dde3f1d5469c9ac3e8ad4197b0">&#9670;&#160;</a></span>pines_on_off()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pines_on_off </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bits</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ini</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Función enciende los leds del display 7 segmentos. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bits</td><td>Número correspondiente a U,D,C,UM,DM. </td></tr>
+    <tr><td class="paramname">ini</td><td>corresponde al pin inicial, siendo este a </td></tr>
+    <tr><td class="paramname">fin</td><td>corresponde al pin final, siendo este g </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>NONE No Retorna valores, pone en estado H o L los leds del display. </dd></dl>
+<p>Función bitRead(x, y) saca la posición de valor H o L de un número Ejemplo. número 11 -&gt; bin 0b1011 -&gt; bitRead(11, 1) = 1</p>
+
+</div>
+</div>
+<a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc01d736fe50cf5b977f755b675f11d">&#9670;&#160;</a></span>setup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Función de acciones que solo se ejecutan una vez. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">NONE</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>NONE </dd></dl>
+
+</div>
+</div>
+<a id="a6ca3a7331d5b5264ebd31d932a28fe92" name="a6ca3a7331d5b5264ebd31d932a28fe92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ca3a7331d5b5264ebd31d932a28fe92">&#9670;&#160;</a></span>taza_refres()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void taza_refres </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>freq</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Taza de refresco de los displays. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>Valor recibido por el serial. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>NONE No Retorna valores, mantiene el valor a feecuencias especificas. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las variables</h2>
+<a id="aafe3f4437fc8c68bc6e5fd4ade02c623" name="aafe3f4437fc8c68bc6e5fd4ade02c623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafe3f4437fc8c68bc6e5fd4ade02c623">&#9670;&#160;</a></span>a</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte a = 6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida. </p>
+
+</div>
+</div>
+<a id="a49c039bfb177536251e7fadaba4d4d11" name="a49c039bfb177536251e7fadaba4d4d11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49c039bfb177536251e7fadaba4d4d11">&#9670;&#160;</a></span>b</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte b = 7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida. </p>
+
+</div>
+</div>
+<a id="a05aa076b56283504ea5eb130f7164189" name="a05aa076b56283504ea5eb130f7164189"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05aa076b56283504ea5eb130f7164189">&#9670;&#160;</a></span>c</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte c = 8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida. </p>
+
+</div>
+</div>
+<a id="a68c993d4b0436ed1133c536880711c83" name="a68c993d4b0436ed1133c536880711c83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68c993d4b0436ed1133c536880711c83">&#9670;&#160;</a></span>centena</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte centena = A2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida Transistores. </p>
+
+</div>
+</div>
+<a id="a66e3fedede6aa372e5196e55e5e8d5c1" name="a66e3fedede6aa372e5196e55e5e8d5c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66e3fedede6aa372e5196e55e5e8d5c1">&#9670;&#160;</a></span>count</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long count</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Variable global. </p>
+
+</div>
+</div>
+<a id="af96c2200273f04883faaa88afd7a9f94" name="af96c2200273f04883faaa88afd7a9f94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af96c2200273f04883faaa88afd7a9f94">&#9670;&#160;</a></span>count1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long count1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Variable global. </p>
+
+</div>
+</div>
+<a id="a785c2f0561357439a33ac41be7fdef29" name="a785c2f0561357439a33ac41be7fdef29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a785c2f0561357439a33ac41be7fdef29">&#9670;&#160;</a></span>d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte d = 9</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida. </p>
+
+</div>
+</div>
+<a id="a0264aafd59d699d149da8b07bf0696ce" name="a0264aafd59d699d149da8b07bf0696ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0264aafd59d699d149da8b07bf0696ce">&#9670;&#160;</a></span>dec_mil</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte dec_mil = A0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida Transistores. </p>
+
+</div>
+</div>
+<a id="a2c1cc541ee4174322b32ca26985e1181" name="a2c1cc541ee4174322b32ca26985e1181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c1cc541ee4174322b32ca26985e1181">&#9670;&#160;</a></span>decena</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte decena = A3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida Transistores. </p>
+
+</div>
+</div>
+<a id="a74085ce15c6f4aeb0ca5b25f3efe30ab" name="a74085ce15c6f4aeb0ca5b25f3efe30ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74085ce15c6f4aeb0ca5b25f3efe30ab">&#9670;&#160;</a></span>e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte e = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida. </p>
+
+</div>
+</div>
+<a id="a96796a08a18d4c5115b929c9451678ea" name="a96796a08a18d4c5115b929c9451678ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96796a08a18d4c5115b929c9451678ea">&#9670;&#160;</a></span>f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte f = 11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida. </p>
+
+</div>
+</div>
+<a id="a7f1378458a998351174a5e6201791909" name="a7f1378458a998351174a5e6201791909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1378458a998351174a5e6201791909">&#9670;&#160;</a></span>g</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte g = 12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida. </p>
+
+</div>
+</div>
+<a id="a994ec02b9436ed1a8a25c4b0351249c7" name="a994ec02b9436ed1a8a25c4b0351249c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a994ec02b9436ed1a8a25c4b0351249c7">&#9670;&#160;</a></span>number</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long number[10] = {0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Arreglo de números de cátodo común en displays 7 segmentos. </p>
+
+</div>
+</div>
+<a id="a19adced22eb108f06f005704588b0c4b" name="a19adced22eb108f06f005704588b0c4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19adced22eb108f06f005704588b0c4b">&#9670;&#160;</a></span>sms</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String sms = &quot;&gt;&gt; ------ PWM FREQUENCY METER ------&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mesanje inicial. </p>
+
+</div>
+</div>
+<a id="a95b985b89ce78056e926de27679bddd0" name="a95b985b89ce78056e926de27679bddd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95b985b89ce78056e926de27679bddd0">&#9670;&#160;</a></span>und_mil</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte und_mil = A1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida Transistores. </p>
+
+</div>
+</div>
+<a id="a7ce01df5acaf06770bcc42d0af687e88" name="a7ce01df5acaf06770bcc42d0af687e88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ce01df5acaf06770bcc42d0af687e88">&#9670;&#160;</a></span>unidad</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte unidad = A4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pin de salida Transistores. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>
